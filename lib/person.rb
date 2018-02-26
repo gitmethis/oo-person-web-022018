@@ -47,11 +47,11 @@ class Person
      return 'another one bites the dust'
   end
   
-  def call_friend(friend)
-      friend.@happiness += 3
-      @happiness += 3
-      return "Hi #{friend.@name}. It's #{@name}! How are you?"
-  end
+  # def call_friend(friend)
+  #     friend.happiness += 3
+  #     @happiness += 3
+  #     return "Hi #{friend.name}. It's #{@name}! How are you?"
+  # end
   
   def start_conversation(person, topic)
       if topic == 'politics'
